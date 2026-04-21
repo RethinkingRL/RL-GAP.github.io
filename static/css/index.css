@@ -731,6 +731,25 @@ a:focus {
   outline-offset: 2px;
 }
 
+.figure-caption {
+  margin-top: 1.4rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.45rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #374151;
+  text-wrap: balance;
+}
+
+.figure-caption-label {
+  font-weight: 700;
+  color: #1f2937;
+}
+
 
 /* Print styles */
 @media print {
@@ -749,5 +768,12 @@ a:focus {
   }
 }
 
-
+@media screen and (max-width: 768px) {
+  .figure-caption {
+    max-width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.55;
+    margin-top: 1rem;
+  }
+}
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -240,30 +240,31 @@
               TRULY REVEAL FAILURES OF RL METHODS?</h1>
               <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  <a href="您的个人主页链接" target="_blank">Zihan Chen</a><sup>*1,2</sup>,
+                  <a href="鎮ㄧ殑涓汉涓婚〉閾炬帴" target="_blank">Zihan Chen</a><sup>*1,2</sup>,
                 </span>
                 <span class="author-block">
-                  <a href="Yiming的链接" target="_blank">Yiming Zhang</a><sup>*1,2</sup>,
+                  <a href="Yiming鐨勯摼鎺? target="_blank">Yiming Zhang</a><sup>*1,2</sup>,
                 </span>
                 <span class="author-block">
-                  <a href="Hengguang的链接" target="_blank">Hengguang Zhou</a><sup>3</sup>,
+                  <a href="Hengguang鐨勯摼鎺? target="_blank">Hengguang Zhou</a><sup>3</sup>,
                 </span>
                 <span class="author-block">
-                  <a href="Zenghui的链接" target="_blank">Zenghui Ding</a><sup>&dagger;1</sup>,
+                  <a href="Zenghui鐨勯摼鎺? target="_blank">Zenghui Ding</a><sup>&dagger;1</sup>,
                 </span>
                 
                 <span class="author-block">
-                  <a href="Yining的链接" target="_blank">Yining Sun</a><sup>1</sup>,
+                  <a href="Yining鐨勯摼鎺? target="_blank">Yining Sun</a><sup>1</sup>,
                 </span>
                 <span class="author-block">
-                  <a href="Cho-Jui的链接" target="_blank">Cho-Jui Hsieh</a><sup>3</sup>
+                  <a href="Cho-Jui鐨勯摼鎺? target="_blank">Cho-Jui Hsieh</a><sup>&dagger;3,4</sup>
                 </span>
               </div>
 
               <div class="is-size-5 publication-authors">
                 <span class="author-block"><sup>1</sup>HFIPS, Chinese Academy of Sciences,</span>&nbsp;
                 <span class="author-block"><sup>2</sup>University of Science and Technology of China,</span>&nbsp;
-                <span class="author-block"><sup>3</sup>University of California, Los Angeles</span>
+                <span class="author-block"><sup>3</sup>University of California, Los Angeles</span>&nbsp;
+                <span class="author-block"><sup>4</sup>Arena</span>
               </div>
               
               <div class="is-size-5 publication-authors">
@@ -283,7 +284,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2510.10541.pdf" target="_blank"
+                        <a href="static/pdfs/2319_Rethinking_RL_Evaluation.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -375,7 +376,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Current benchmarks are inadequate for evaluating progress in reinforcement learning (RL) for large language models (LLMs). Despite recent benchmark gains reported for RL, we find that training on these benchmarks’ training sets achieves nearly the same performance as training directly on the test sets, suggesting that the benchmarks cannot reliably separate further progress.To study this phenomenon, we introduce a diagnostic suite and the Oracle Performance Gap (OPG) metric that quantifies the performance difference between training on the train split versus the test split of a benchmark. We further analyze this phenomenon with stress tests and find that, despite strong benchmark scores, existing RL methods struggle to generalize across distribution shifts, varying levels of difficulty, and counterfactual scenarios: shortcomings that current benchmarks fail to reveal.We conclude that current benchmarks are insufficient for evaluating generalization and propose three core principles for designing more faithful benchmarks: sufficient difficulty, balanced evaluation, and distributional robustness.
+            Current benchmarks are inadequate for evaluating progress in reinforcement learning (RL) for large language models (LLMs). Despite recent benchmark gains reported for RL, we find that training on these benchmarks' training sets achieves nearly the same performance as training directly on the test sets, suggesting that the benchmarks cannot reliably separate further progress. To study this phenomenon, we introduce a diagnostic suite and the Oracle Performance Gap (OPG) metric that quantifies the performance difference between training on the train split versus the test split of a benchmark. We further analyze this phenomenon with stress tests and find that, despite strong benchmark scores, existing RL methods struggle to generalize across distribution shifts, varying levels of difficulty, and counterfactual scenarios: shortcomings that current benchmarks fail to reveal. We conclude that current benchmarks are insufficient for evaluating generalization and propose three core principles for designing more faithful benchmarks: sufficient difficulty, balanced evaluation, and distributional robustness.
           </p>
         </div>
       </div>
@@ -422,7 +423,7 @@
             </div>
 
             <div class="item">
-              <img src="static/images/result_sft.png" alt="SFT Performance Table" style="width:100%; object-fit: contain;"/>
+              <img src="static/images/result_sft_new.png" alt="SFT Performance Table" style="width:100%; object-fit: contain;"/>
               <h2 class="subtitle has-text-centered">
                 <strong>Table 2: SFT Generalization.</strong> Unlike RL, SFT models show a significant gap between standard training and Oracle performance, confirming the benchmarks pose a valid challenge for Supervised Fine-Tuning.
               </h2>
@@ -470,7 +471,7 @@
             </div>
 
             <div class="item">
-              <img src="static/images/fig_trend.png" alt="Cross Difficulty Trend" style="width:100%; object-fit: contain;"/>
+              <img src="static/images/fig_trend_new.png" alt="Cross Difficulty Trend" style="width:100%; object-fit: contain;"/>
               <h2 class="subtitle has-text-centered">
                 <strong>Training on Difficulty.</strong> Training on harder problems (L4-L5) boosts transferability.
               </h2>
@@ -493,7 +494,7 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <img src="static/images/tab_distribution.png" alt="Distribution Test Results" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <img src="static/images/tab_distribution_new.png" alt="Distribution Test Results" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         <h2 class="subtitle has-text-centered" style="font-size: 0.9rem; margin-top: 10px;">
           <strong>Table 3: Performance Inversion.</strong> The specialist model (<i>M</i><sub>core</sub>) excels locally but fails on OOD data (<i>d</i><sub>5</sub>), performing worse than the baseline.
         </h2>
@@ -601,27 +602,6 @@
 
 
 
-<!--BibTex citation -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <div class="bibtex-header">
-      <h2 class="title">BibTeX</h2>
-      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-        <i class="fas fa-copy"></i>
-        <span class="copy-text">Copy</span>
-      </button>
-    </div>
-    <pre id="bibtex-code"><code>@misc{chen2025rethinkingrlevaluationbenchmarks,
-      title={Rethinking RL Evaluation: Can Benchmarks Truly Reveal Failures of RL Methods?}, 
-      author={Zihan Chen and Yiming Zhang and Hengguang Zhou and Zenghui Ding and Yining Sun and Cho-Jui Hsieh},
-      year={2025},
-      eprint={2510.10541},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.10541}, 
-}</code></pre>
-  </div>
-</section>
 <!--End BibTex citation -->
 
 
@@ -632,7 +612,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the聽<a href="https://nerfies.github.io" target="_blank">Nerfies</a>聽project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
